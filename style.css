@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Oswald', sans-serif ;
+}
+
+body{
+    background: url(imagenes/History\ GGM.png);
+
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(1, 92, 1);
+}
+.navegacion{
+    position: fixed; /* Fija la posición del menú */
+    top: 0; /* Coloca el menú en la parte superior */
+    left: 10%; /* Coloca el menú en la parte izquierda */
+    width: 95%; /* Ancho del menú */
+    background-color: #0a4e01; /* Fondo del menú */
+    padding: 10px; /* Espacio entre el menú y el contenido */
+    z-index: 1000; /* Prioriza el menú sobre otros elementos */
+    
+  }
+  
+
+
+.interior{
+    max-width: 100%;
+    padding: 0 10px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 5px 20px 0;
+}
+.logo img{
+    height: 80px;
+    position: fixed;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+.navegacion{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    z-index: 1000;
+    min-width: 300px;
+}
+.navegacion ul{
+    list-style: none;
+    padding: 0 10px;
+    width: 100%;
+}
+.navegacion ul li{
+    display: inline-block;
+    position: relative;
+    transition: .3s linear;
+    z-index: 1000;
+    
+}
+.navegacion ul li:hover{
+    transform: scale(1.1);
+}
+.navegacion ul li a{
+    color: #f7f0f0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+    transition: .3s linear;
+}
+.navegacion ul li a:hover{
+    color: #40ee0b;
+    transform: scale(1.1);
+}
+.navegacion ul li:hover .hijos{
+    display: block;
+}
+.navegacion .submenu .hijos{
+    display: none;
+    background: #258607;
+    position: absolute;
+    width: 100%;
+}
+.navegacion .submenu .hijos li{
+    display: block;
+    overflow: hidden;
+    border-bottom: none;
+}
+.navegacion .submenu .hijos li a{
+    display: block;
+}
+
+  
+ 
+    
+
+
+.footer {
+    background-color: #086301e3;
+    color: #ffffff;
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  .footer .container {
+    width: 100%;
+    margin: 0 auto;
+    height: 150px;
+  }
+  
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer .col-md-4 {
+    flex-basis: 33.33%;
+    padding: 20px;
+  }
+  
+  .footer h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 5;
+    margin: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: #003802;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #113907;
+  }
+  
+  .copyright {
+    background-color: #eeff00;
+    color: #0e6c00;
+    padding: 10px 0;
+    text-align: center;
+    clear: both;
+  }
